@@ -1,0 +1,94 @@
+.container {
+   width: 100%;
+   background: #eee;
+   margin: 0 auto;
+   0 auto;
+ }
+
+ .heading {
+   height: 100px;
+   background: blue;
+   padding: 20px;
+   text-align: center;
+   font-style: oblique;
+ }
+
+ .school {
+   height: 50px;
+   background: yellow;
+   padding-left: 10px;
+   padding-top: 10px;
+ }
+
+ .content {
+   min-height: 400px;
+   background-color: lightblue;
+   width: 400px;
+   float: left;
+   font: normal 16px Arial, Helvetica;
+   margin-right: 0 auto;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+
+ .sidebar {
+   width: 400px;
+   float: right;
+   background: red;
+   min-height: 400px;
+   margin-right: auto;
+   padding-left: 10px;
+ }
+
+ .img {
+   height: 120px;
+   width: 10em;
+
+ }
+
+ .footer {
+   clear: both;
+   height: 40px;
+   color: green;
+   text-align: center;
+   padding: 10px;
+   background-color: green;
+ }
+
+
+ .NYCDA {
+   padding: 10px 10px;
+   border: 1px solid red;
+   color: red;
+   text-decoration: none;
+   display: inline-block;
+   border-radius: 5px;
+ }
+
+ @media screen and (max-width:979px) #container {
+   width: 100%;
+ }
+ img {
+   border-style: solid;
+   border-color: blue;
+ }
+
+ [href] {
+   color: blue;
+}
+
+p {
+  font-style: italic;
+  color: black;
+}
+h4 {
+ font-family: cursive;
+ color: purple;
+}
+
+h2 {
+  font-family: inherit;
+  color: purple;
+}
