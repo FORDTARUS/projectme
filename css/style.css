@@ -92,3 +92,7 @@ h2 {
   font-family: inherit;
   color: purple;
 }
+
+ul ul {
+  list-style-type: none;
+}
